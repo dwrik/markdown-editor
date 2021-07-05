@@ -37,7 +37,7 @@ _You **can** combine them_
 
 ## Links
 
-You are using [Markdown Previewer](https://dwrik.github.io/markdown-preview/).
+You are using [Markdown Previewer](https://github.com/dwrik/markdown-previewer/).
 
 ## Blockquotes
 
