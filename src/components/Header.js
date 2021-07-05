@@ -2,7 +2,7 @@ const Header = ({ downloadMarkdown }) => {
   return (
     <header>
       <a
-        href="https://github.com/dwrik"
+        href="https://github.com/dwrik/markdown-previewer/"
         target="_blank"
         rel="noreferrer"
         className="links"
