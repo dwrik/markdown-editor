@@ -2,7 +2,7 @@
 
 A minimalist markdown editor with live preview and synced scrolling.
 
-![Markdown Previewer Screenshot.](./images/screenshot.png "Markdown Previewer.")
+![Markdown Previewer Screenshot.](./public/images/screenshot.png "Markdown Previewer.")
 
 ## Features
 
