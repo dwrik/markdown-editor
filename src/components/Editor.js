@@ -1,12 +1,16 @@
+import { ScrollSyncPane } from 'react-scroll-sync'
+
 const Editor = ({ text, updateText }) => {
   return (
     <div className="child-container">
-      <textarea
-        id="editor"
-        value={text}
-        placeholder="Start typing here to get a preview..."
-        onChange={updateText}
-      ></textarea>
+      <ScrollSyncPane>
+        <textarea
+          id="editor"
+          value={text}
+          placeholder="Start typing here to get a preview..."
+          onChange={updateText}
+        ></textarea>
+      </ScrollSyncPane>
     </div>
   )
 }

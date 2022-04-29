@@ -10,7 +10,7 @@ const Header = ({ downloadMarkdown }) => {
         <h1>Markdown Previewer</h1>
       </a>
       <button className="button" onClick={downloadMarkdown}>
-        Download as File
+        Download
       </button>
     </header>
   )

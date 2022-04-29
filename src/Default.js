@@ -1,4 +1,6 @@
-export const DEFAULT_TEXT = `# Markdown syntax guide
+const FILENAME = 'markdown-preview.md'
+
+const TEXT = `# Markdown syntax guide
 
 ## Headers
 
@@ -64,3 +66,6 @@ console.log(message);
 
 This site uses \`markedjs/marked\`.
 `
+
+const DEFAULTS = { FILENAME, TEXT }
+export default DEFAULTS

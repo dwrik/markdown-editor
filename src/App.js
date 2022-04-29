@@ -1,14 +1,13 @@
 import DOMPurify from 'dompurify'
 import { useState, useEffect } from 'react'
-import { DEFAULT_TEXT } from './Default'
+import { ScrollSync } from 'react-scroll-sync'
 import PreviewPane from './components/PreviewPane'
 import Editor from './components/Editor'
 import Header from './components/Header'
-
-const DEFAULT_FILENAME = 'markdown-preview.md'
+import Defaults from './Default'
 
 const App = () => {
-  const [text, setText] = useState(DEFAULT_TEXT)
+  const [text, setText] = useState(Defaults.TEXT)
   const [safeHTML, setSafeHTML] = useState('')
 
   const updateText = ({ target }) => {
@@ -24,17 +23,19 @@ const App = () => {
     const file = new Blob([text], { type: 'text/plain; charset=utf-8' })
     const downloadLink = document.createElement('a')
     downloadLink.href = URL.createObjectURL(file)
-    downloadLink.download = DEFAULT_FILENAME
+    downloadLink.download = Defaults.FILENAME
     downloadLink.click()
   }
 
   return (
     <div className="main">
       <Header downloadMarkdown={downloadMarkdown} />
-      <div className="container">
-        <Editor text={text} updateText={updateText} />
-        <PreviewPane safeHTML={safeHTML} />
-      </div>
+      <ScrollSync>
+        <div className="container">
+          <Editor text={text} updateText={updateText} />
+          <PreviewPane safeHTML={safeHTML} />
+        </div>
+      </ScrollSync>
     </div>
   )
 }

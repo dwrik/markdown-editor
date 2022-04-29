@@ -42,7 +42,7 @@ body {
   padding: 0px;
   resize: none;
   font-size: 16px;
-  overflow-y: auto;
+  overflow: auto;
   border: none;
 }
 
@@ -53,7 +53,7 @@ body {
 #preview {
   width: 95%;
   height: 95%;
-  overflow-y: auto;
+  overflow: auto;
   overflow-wrap: break-word;
 }
 
