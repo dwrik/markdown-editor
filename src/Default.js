@@ -32,7 +32,6 @@ _You **can** combine them_
 1. Item 2
 1. Item 3
 
-
 ## Images
 
 ![This is a alt text.](./images/sample.jpg "This is a sample image.")
