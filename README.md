@@ -8,10 +8,11 @@ A minimalist markdown editor with live preview and synced scrolling.
 
 - Live Preview
 - Synced scrolling
-- Download as file
+- Download
 - Minimal
 
 ## Todos
 
+- Vim mode
 - LocalStorage integration
 - Markdown syntax guide
