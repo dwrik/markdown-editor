@@ -1,8 +1,8 @@
-# Markdown Previewer
+# Markdown Editor
 
 A minimalist markdown editor with live preview and synced scrolling.
 
-![Markdown Previewer Screenshot.](./public/images/screenshot.png "Markdown Previewer.")
+![Markdown Editor Screenshot.](./public/images/screenshot.png "Markdown Editor.")
 
 ## Features
 
