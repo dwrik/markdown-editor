@@ -1,19 +1,19 @@
-const FILENAME = 'markdown-preview.md'
+const FILENAME = 'markdown-editor.md'
 
 const TEXT = `# Markdown syntax guide
 
 ## Headers
 
 # This is a Heading h1
-## This is a Heading h2 
+## This is a Heading h2
 #### This is a Heading h4
 
 ## Emphasis
 
-*This text will be italic*  
+*This text will be italic*
 _This will also be italic_
 
-**This text will be bold**  
+**This text will be bold**
 __This will also be bold__
 
 _You **can** combine them_
@@ -38,7 +38,7 @@ _You **can** combine them_
 
 ## Links
 
-You are using [Markdown Previewer](https://github.com/dwrik/markdown-previewer/).
+You are using [Markdown Editor](https://github.com/dwrik/markdown-editor/).
 
 ## Blockquotes
 
