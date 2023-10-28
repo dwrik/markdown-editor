@@ -1,19 +1,22 @@
 # Markdown Editor
 
-A minimalist markdown editor with live preview and synced scrolling.
+A minimalist markdown editor with a core set of features. For a list of features included, refer to the [features](./#features) section of the README.
 
-![Markdown Editor Screenshot.](./public/images/screenshot.png "Markdown Editor.")
+![Markdown Editor Screenshot.](./public/images/markdown-editor.png "Markdown Editor.")
 
 ## Features
 
+- Minimal
 - Live Preview
 - Synced scrolling
+- Vim mode
 - Download
-- Minimal
+- Copy to clipboard
+- Toast notifications
 
 ## Todos
 
-- [ ] Vim mode
-- [ ] Copy to clipboard
+- [x] Vim mode
+- [x] Copy to clipboard
 - [ ] LocalStorage integration
 - [ ] Markdown syntax guide
