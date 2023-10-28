@@ -1,15 +1,21 @@
 import { ScrollSyncPane } from 'react-scroll-sync'
+import { markdown, markdownLanguage } from '@codemirror/lang-markdown'
+import { languages } from '@codemirror/language-data'
+import { vim } from '@replit/codemirror-vim'
+import ReactCodeMirror from '@uiw/react-codemirror'
 
 const Editor = ({ text, updateText }) => {
   return (
-    <div className="child-container">
+    <div className='child-container'>
       <ScrollSyncPane>
-        <textarea
-          id="editor"
+        <ReactCodeMirror
+          id='editor'
           value={text}
-          placeholder="Start typing here to get a preview..."
+          height='100%'
           onChange={updateText}
-        ></textarea>
+          basicSetup={{ lineNumbers: false, foldGutter: false }}
+          extensions={[vim(), markdown({ base: markdownLanguage, codeLanguages: languages })]}
+        />
       </ScrollSyncPane>
     </div>
   )
