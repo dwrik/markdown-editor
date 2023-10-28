@@ -13,6 +13,7 @@ A minimalist markdown editor with live preview and synced scrolling.
 
 ## Todos
 
-- Vim mode
-- LocalStorage integration
-- Markdown syntax guide
+- [ ] Vim mode
+- [ ] Copy to clipboard
+- [ ] LocalStorage integration
+- [ ] Markdown syntax guide
